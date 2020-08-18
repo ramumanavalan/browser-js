@@ -11,7 +11,7 @@ document.body.appendChild(jsElm);
 var deln={};
 function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
 (async ()=>{
-    await sleep(2000);
+    await sleep(5000);
     var parts = Object.keys(enl);
     for(var i=0;i<parts.length;i++){
         var lk = Object.keys(enl[parts[i]]);
